@@ -6,6 +6,8 @@ paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
 
+googleAnalytics = "UA-149024419-1"
+
 [params]
   title       = "Hugo Casper Two"
   subtitle    = "Port of Casper 2.x for Hugo"
@@ -64,5 +66,3 @@ canonifyurls    = true
   name = "External"
   url = "https://google.com/"
   weight = 95
-
-
