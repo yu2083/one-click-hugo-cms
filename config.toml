@@ -1,11 +1,13 @@
 baseurl         = "/"
-theme           = "casper-two"
+theme           = "robust"
 languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
 googleAnalytics = "UA-149024419-1"
+# theme = "robust"
+
 
 [params]
   title       = "Hugo Casper Two"
