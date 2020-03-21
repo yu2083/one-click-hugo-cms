@@ -1,6 +1,6 @@
 baseurl = "https://example.com/"
 title = "SiteTitle"
-theme = "hugo_theme_robust"
+theme = "robust"
 
 googleAnalytics = "UA-149024419-1" # Optional
 disqusShortname = "XYW"
