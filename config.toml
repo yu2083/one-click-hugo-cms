@@ -5,7 +5,6 @@ disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
-
 googleAnalytics = "UA-149024419-1"
 
 [params]
