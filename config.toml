@@ -1,69 +1,25 @@
-baseurl         = "/"
-theme           = "robust"
-languageCode    = "en-US"
-disqusShortname = ""
-paginate        = 6
-#SectionPagesMenu = "main"
-canonifyurls    = true
-googleAnalytics = "UA-149024419-1"
-# theme = "robust"
+baseurl = "https://example.com/"
+title = "SiteTitle"
+theme = "hugo_theme_robust"
 
+googleAnalytics = "UA-149024419-1" # Optional
+disqusShortname = "XYW"
 
 [params]
-  title       = "Hugo Casper Two"
-  subtitle    = "Port of Casper 2.x for Hugo"
-  copyright   = "© 2018"
+description = "This is site description"
+dateformat = "Jan 2, 2006" # Optional
+# Fonts settings.
+googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" # Optional, Include google fonts.
+fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
+logofontfamily = "Lobster, cursive" # Optional, Override logo font.
 
-  cover       = "img/blog-cover.jpg"
-  description = "Here is a description of your site."
-  metaDescription = ""
-  googleAnalytics = ""
-  customCSS = []
-  RSSLink = ""
+[params.author]
+thumbnail = "images/author.jpg"
+name = "John Doe"
+description = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p><p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+facebook = "https://www.facebook.com/daisuke.tsuji.735"
+twitter = "https://twitter.com/dim0627"
+github = "https://github.com/dim0627"
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "eueung"
-  linkedinName = "eueung"
-  mediumName = ""
-
-  logo = "hugo-logo.png"
-  orgName = "EM"
-  orgWebsite = "https://www.telematika.org"
-  orgDescription = "Here is a description placeholder for your org"
-
-  showSupport = true
-
-  author = "EM"
-  authorAvatar = "img/ghost-icon.png"
-  authorLocation = "Bandung, ID"
-  authorWebsite = "https://eueung.github.io"
-  authorDescription = "Your description here"
-
-  pageNotFoundTitle = "404 - Page not found"
-
-  #casper or caspertwo
-  singleViewStyle = "casper"
-
-[permalinks]
-  post = "/post/:slug/"
-
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 200
-
-[[menu.main]]
-  name = "Go"
-  url = "/tags/golang/"
-  weight = 100
-
-[[menu.main]]
-  name = "Categories"
-  url = "/categories/"
-  weight = 99
-
-[[menu.main]]
-  name = "External"
-  url = "https://google.com/"
-  weight = 95
+[outputs]
+page = [ "HTML", "AMP" ] # if you want AMP enable.
